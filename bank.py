@@ -10,7 +10,7 @@ contas = ['Nome Completo: ',
           'Data de Nascimento: ',
           # 'Graduação: ',
           # 'Experiência Profissional: ',
-          'Valor Inicial: ']
+          'Depósito Inicial: ']
 usuarios = list()
 senhas = []
 # ------------ Corpo -------------
@@ -59,10 +59,11 @@ while True:
         print(f'Data de Nascimento: {contas[1]}')
         # print(f'Graduação: {contas[2]}ª Classe [Médio Concluido]')
         # print(f'Experiência Profissional: {contas[3]} Anos')
-        print(f'Saldo na Conta: {contas[4]}AOA')
+        print(f'Saldo na Conta: {contas[2]}AOA')
         # print(f'BI Nº: {contas[5]}')
         # print(f'Nº Conta: {contas[6]}')
         # print(f'IBAN: {contas[7]}')
+        usuarios.append(contas[:])
         print('-' * 50)
     elif escolha == 4:
         print('-'*50)
